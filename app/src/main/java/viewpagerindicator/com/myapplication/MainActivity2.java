@@ -16,7 +16,7 @@ public class MainActivity2 extends AppCompatActivity {
 
         PagerAdapter wrappedAdapter = new InfinitePagerAdapter(imgadapter);
 
-        viewPager.setInterval(3000);
+        viewPager.setInterval(1000); //-- 이미지 넘어가는 시간 
         viewPager.setAdapter(wrappedAdapter);
         viewPager.startAutoScroll();
 
